@@ -39,7 +39,6 @@ metadata:
   tags:
     - aws
     - go
-    - serverless
     - k8s
 spec:
   type: service
