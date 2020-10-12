@@ -10,12 +10,6 @@ metadata:
     team: foo-squad
     directorate: platform
   url: webiteapp.com
-  deploymentLocations: aws
-  techInfo:
-    language: go
-    serverless: true
-    platform: k8s
-    database: None
   source:
     - name: application
       url: https://gitlab.com/org/team/repo
@@ -42,6 +36,11 @@ metadata:
       url: https://newrelic.com/dashboards/bar
     - name: API (Detailed)
       url: https://cloudwatch.amazonws.com/whatever
+  tags:
+    - aws
+    - go
+    - serverless
+    - k8s
 spec:
   type: service
   lifecycle: production
