@@ -1,0 +1,34 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: noContact 
+  description: My working service 
+  ownership:
+    team: sre-squad
+    directorate: platform
+  url: 
+  deploymentLocations: gcp
+  techInfo:
+    language: go
+    serverless: false
+    platform: k8s
+    database: postgres
+  source:
+    - name: application
+      url: https://github.com/forrestwaters/catalog-demo 
+    - name: infrastructure
+      url: https://github.com/forrestwaters/catalog-demo/k8s 
+  contact:
+    slack_channel: demo 
+  documentation:
+    - name: readMe
+      url: https://github.com/forrestwaters/catalog-demo/README 
+  build_and_deploy:
+    - name: ci/cd
+      url: https://github.com/forrestwaters/catalog-demo/pipelines 
+  dashboards:
+spec:
+  type: service
+  lifecycle: production
+  owner: guest
+
