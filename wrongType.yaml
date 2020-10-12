@@ -17,9 +17,9 @@ metadata:
     application: https://github.com/forrestwaters/catalog-demo 
     infra: https://github.com/forrestwaters/catalog-demo 
   contact:
-    pagerduty_service_url: ''
-    email: sre@github.com 
-    slack_channel: demo 
+    - pagerduty_service_url: ''
+    - email: sre@github.com 
+    - slack_channel: demo 
   documentation:
     readMe: https://github.com/forrestwaters/catalog-demo/README 
   build_and_deploy:
