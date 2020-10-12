@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: works
+  name: wrongType 
   description: My working service 
   ownership:
     team: sre-squad
