@@ -27,7 +27,7 @@ metadata:
   dashboards: ''
   bonkers: abc
   test:
-    - abc
+    - abc: x
       value: ''
 spec:
   type: service
