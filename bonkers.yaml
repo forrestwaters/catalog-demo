@@ -1,0 +1,36 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bonkers 
+  description: My bonkers service definition
+  ownership:
+    team: sre-squad
+    directorate: platform
+  url: 
+  deploymentLocations: gcp
+  techInfo:
+    language: go
+    serverless: false
+    platform: k8s
+    database: postgres
+  source:
+    application: https://github.com/forrestwaters/catalog-demo 
+    infra: https://github.com/forrestwaters/catalog-demo 
+  contact:
+    - pagerduty_service_url: ''
+    - email: sre@github.com 
+    - slack_channel: demo 
+  documentation:
+    readMe: https://github.com/forrestwaters/catalog-demo/README 
+  build_and_deploy:
+    ci/cd: https://github.com/forrestwaters/catalog-demo/pipelines 
+  dashboards:
+  bonkers: abc
+  test:
+    - abc
+      value: ''
+spec:
+  type: service
+  lifecycle: production
+  owner: guest
+
