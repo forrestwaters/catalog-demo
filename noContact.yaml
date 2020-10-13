@@ -27,6 +27,7 @@ metadata:
     - name: ci/cd
       url: https://github.com/forrestwaters/catalog-demo/pipelines 
   dashboards:
+    url: http://google.com
 spec:
   type: service
   lifecycle: production
