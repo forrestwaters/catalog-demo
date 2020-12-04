@@ -5,6 +5,6 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: gitlab:https://gitlab.com/heb-engineering/teams/platform-engineering/tools-squad/tenancy-service.git
 spec:
-  type: library
+  type: service 
   owner: CNCF
   lifecycle: experimental
