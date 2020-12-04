@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tenancy-service
+  annotations:
+    backstage.io/techdocs-ref: gitlab:https://gitlab.com/heb-engineering/teams/platform-engineering/tools-squad/tenancy-service.git
+spec:
+  type: library
+  owner: CNCF
+  lifecycle: experimental
