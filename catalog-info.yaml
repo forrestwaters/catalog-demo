@@ -1,0 +1,10 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: catalog-demo
+  annotations:
+    github.com/project-slug: forrestwaters/catalog-demo
+spec:
+  type: other
+  lifecycle: unknown
