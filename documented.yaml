@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: documented-example 
   annotations:
-    backstage.io/techdocs-ref: https://gitlab.com/heb-engineering/teams/platform-engineering/tools-squad/doctools/markdown-example/-/tree/master/ 
+    backstage.io/techdocs-ref: gitlab:https://gitlab.com/heb-engineering/teams/platform-engineering/tools-squad/doctools/markdown-example/-/tree/master/ 
 spec:
   type: service 
   owner: CNCF
